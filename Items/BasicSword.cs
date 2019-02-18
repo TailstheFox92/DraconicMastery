@@ -3,12 +3,12 @@ using Terraria.ModLoader;
 
 namespace DraconicMastery.Items
 {
-	public class AdventureCrossbow : ModItem
+	public class BasicSword : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("AdventureCrossbow");
-			Tooltip.SetDefault("This is a modded sword.");
+			DisplayName.SetDefault("Basic Sword");
+			Tooltip.SetDefault("This is a modded sword. Testing purposes.");
 		}
 		public override void SetDefaults()
 		{
