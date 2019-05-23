@@ -13,7 +13,7 @@ namespace DraconicMastery.Items.Weapons.Melee
 		}
 		public override void SetDefaults()
 		{
-			item.damage = 50;
+			item.damage = 46;
 			item.melee = true;
 			item.width = 48;
 			item.height = 58;
@@ -24,7 +24,7 @@ namespace DraconicMastery.Items.Weapons.Melee
 			item.value = Item.sellPrice(0, 0, 40, 0);
             item.rare = ItemRarityID.Green;
 			item.UseSound = SoundID.Item1;
-			item.autoReuse = true;
+			item.autoReuse = false;
 		}
 
         public override void OnHitNPC(Player player, NPC target, int damage, float knockBack, bool crit)
